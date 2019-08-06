@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <title>내가 좋아하는 음식</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:white;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:60px;
+      text-align: center;
+      border-bottom:1px solid white;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid white;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:30px;
+    }
+    #grid #article{
+      padding-left:30px;
+    }
+    @media(max-width:800px){
+      #grid {
+        display: block;
+      }
+    }
+      @media(max-width:800px){
+        #img{
+          display: none;
+        }
+      }
+
+      ol{
+        border-right:none;
+      }
+      h1 {
+        border-bottom:none;
+      }
+    }
+  </style>
+</head>
+<body bgcolor="FF7DA6">
+  <h1><a href="index.html">탕후루</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">탕후루란?</a></li>
+      <li><a href="2.html">딸기탕후루</a></li>
+      <li><a href="3.html">탕후루만들기</a></li>
+    </ol>
+    <div id="article">
+        <h2>탕후루</h2>
+<div id="img">
+        <img src="탕후루.jpg" width="50%"> </div>
+        <p>
+          糖葫蘆라고도 하며, 한국에서는 빙탕후루, 탕후루, 과일사탕 등으로 불린다. <br>송나라 때부터 만들어졌다고 전해지는 중국의 전통 과자로, 새빨간 산사나무 열매들을<br> 대나무 꼬치에 꿰어 설탕과 물엿 등을 발라서 얼려 반짝반짝하게 만드는 것이다. <br>서양에도 캔디 애플이라는 비슷한 간식이 있고 만드는 법도 비슷하다.
+
+        </p>
+      </div>
+  </div>
+  </body>
+  </html>
